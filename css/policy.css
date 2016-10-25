@@ -1,0 +1,107 @@
+
+.policywrap{
+	width:100%;
+	background:#fff;
+}
+.policy{
+	width:1200px;
+	margin: 0 auto;
+	height:auto;
+}
+.policy nav{
+	margin:20px 0;
+	height:86px;
+	background: #D7D7D7;
+}
+.policy nav .title{
+	width:20%;
+	height:86px;
+}
+.policy nav .title p{
+	float:left;
+	height:42px;
+	line-height: 42px;
+	padding:0 25px;
+}
+.policy nav .title .all a{
+	color:#0099FF;
+}
+.policy nav .list{
+	width:80%;
+	height:86px;
+}
+.policy nav .list li{
+	float:left;
+	height:42px;
+	padding:0 15px;
+	line-height: 42px;
+}
+.policy article li{
+	height:60px;
+	line-height: 60px;
+}
+.policy article li:first-child{
+	height:38px;
+	line-height: 38px;
+	background: #D7D7D7;
+}
+.policy article li a,span{
+	display: block;
+}
+.policy article .name{
+	width:90%;
+	text-align: center;
+}
+.policy article .date{
+	width:10%;
+}
+.policy article li{
+	border: 1px solid #ddd;
+	border-top:none;
+}
+.policy article a span:first-child{
+	float:left;
+	width:88%;
+	padding-left:2%;
+}
+.policy article a span:last-child{
+	float:left;
+	width:10%;
+}
+
+/*内容底部*/
+.policybottom{
+	height:76px;
+	margin-top:68px;
+	
+}
+.policybottom ul{
+	width:550px;
+	height:40px;
+	margin:0 auto;
+}
+.policybottom li{
+	text-align: center;
+	line-height: 40px;
+	margin-left:10px;
+	font-size:12px;
+}
+.policybottom .first,.last{
+	width:70px;
+	height:40px;
+	background:#F2F2F2;
+}
+.policybottom .previous,.next{
+	width:90px;
+	height:40px;
+	background:#F2F2F2;
+}
+.policybottom .pageone,.pagetwo,.pagethree{
+	width:40px;
+	height:40px;
+	background:#ccc;
+}
+.policybottom .pageone{
+	background:#666;
+	color:#ccc;
+}

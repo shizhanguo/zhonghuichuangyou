@@ -1,0 +1,115 @@
+
+b{font-weight: 100;font-size:14px;}
+.registerwrap{
+	width:100%;
+	height:560px;
+}
+.register{
+	width:1200px;
+	height:560px;
+	margin:0 auto;
+}
+.register form{
+	float:left;
+	width:40%;
+	height:445px;
+	/*background:aquamarine;*/
+	margin:45px 12% 70px 8%;
+
+}
+.register aside{
+	float:right;
+	width:40%;
+	height:445px;
+	background:salmon;
+	margin:45px 0 70px;
+	
+}
+.register div{
+	width:100%;
+	height:45px;
+}
+.register .tip{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	color:#ccc;
+	font-size:14px;
+	padding-left:20px;
+}
+.register .phone,.key,.code,.phonecode,.registerbutton{
+	border:1px solid #aaa;
+	
+}
+.register input{
+	width:79%;
+	height:43px;
+	border:none;
+	line-height: 43px;
+}
+.register b{
+	/*display:inline-block;*/
+	height:45px;
+	line-height: 45px;
+	width:20%;
+	text-align: center;
+	
+}
+.register .code,.phonecode{
+	position: relative;
+}
+.register .code p{
+	width:80px;
+	height:inherit;
+	position: absolute;
+	right:0;
+	top:0px;
+	background:#666666;
+	text-align: center;
+	line-height: 45px;
+	font-weight: bolder;
+	font-size:26px;
+	color:#fff;
+	font-style: italic;
+	cursor: pointer;
+}
+.register .phonecode p{
+	width:80px;
+	height:inherit;
+	position: absolute;
+	right:0;
+	top:0px;
+	background:#ccc;
+	text-align: center;
+	line-height: 45px;
+	font-size:14px;
+	color:#666;
+	cursor: pointer;
+}
+.register .deal{
+	height:90px;
+}
+.register .deal input{
+	margin-top:29px;
+	float:left;
+	width:20px;
+	height:20px;
+}
+.register .deal p{
+	float:left;
+	margin-top:28px;
+}
+.register .deal a{
+	float:left;
+	margin-top:28px;
+}
+.register .registerbutton{
+	border:none;
+}
+.register .registerbutton input{
+	background: #61C5EF;
+	width:100%;
+	border-radius: 8px;
+	color:#fff;
+	font-size:22px;
+}

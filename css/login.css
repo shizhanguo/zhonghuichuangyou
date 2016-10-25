@@ -1,0 +1,90 @@
+h1{font-size:26px;color:#888;}
+a{color:#aaa;}
+.loginwrap{
+	width:100%;
+	height:570px;
+	background:skyblue;
+}
+.login{
+	width:1200px;
+	height:570px;
+	/*background:blue;*/
+	margin:0 auto;
+	position: relative;
+}
+.login form{
+	width:380px;
+	height:400px;
+	background:#fff;
+	position: absolute;
+	top:50px;
+	right:10px;
+	/*margin:0 auto;*/
+}
+.login input{
+	width:75%;
+	height:46px;
+	color:#999;
+	font-size:18px;
+	line-height: 46px;
+}
+.login .loginbutton{
+	margin:45px 0;
+}
+.login .loginbutton input{
+	width:85%;
+	border-radius:8px;
+	font-size:22px;
+	/*-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px;
+	position:relative; 
+	z-index:2; 
+	behavior: url(ie-css3.htc);*/
+}
+.login div{
+	text-align: center;
+}
+.login .top{
+	margin:20px 0 50px 0;
+}
+.login .phone,.key{
+	margin:25px 0;
+}
+.login .key{
+	position: relative;
+}
+.login .key .forget{
+	width:80px;
+	height:15px;
+	position: absolute;
+	right:37px;
+	top:16px;
+	border-left:1px solid #aaa;
+}
+.login .key .forget a{
+	position:absolute;
+	font-size:12px;
+	left:20px;
+}
+.login .phone input{
+	border:1px solid #aaa;
+	padding-left:10%;
+}
+.login .key input{
+	border:1px solid #aaa;
+	padding-left:10%;
+}
+.login .register{
+	margin:-5px 0 0 240px;
+	font-size:14px;
+}
+
+
+
+
+
+
+
+
+

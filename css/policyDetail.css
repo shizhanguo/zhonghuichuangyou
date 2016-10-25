@@ -1,0 +1,53 @@
+
+.policyDetailwrap{
+	width:100%;
+}
+.policyDetail{
+	width:1200px;
+	margin:0 auto;
+}
+.policyDetail .crumbsnav{
+	margin-top:30px;
+}
+.policyDetail .crumbsnav i{
+	font-style: normal;
+	padding:0 10px;
+	font-weight: bold;
+}
+.policyDetail .content{
+	margin:0 auto;
+	width:80%;
+	padding-bottom:250px;
+
+}
+.policyDetail .content h2{
+	margin:0 auto;
+	width:60%;
+	height:70px;
+	margin-top:60px;
+	/*line-height:200px;*/
+	text-align: center;
+	color:#333;
+}
+.policyDetail .contenttop{
+	height:38px;
+	line-height:38px;
+	text-align: center;
+	border-bottom:1px solid #aaa;
+	
+}
+.policyDetail .contenttop span{
+	font-size:15px;
+}
+.policyDetail .contenttop .date{
+	/*font-size:14px;*/
+	padding:0 5px;
+}
+.policyDetail .text p{
+	font-size:12px;
+	padding-top:18px;
+	color:#333;
+}
+.policyDetail .text .indent{
+	text-indent: 2em;
+}
