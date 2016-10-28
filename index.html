@@ -4,6 +4,8 @@
 		<meta charset="utf-8" />
 		<title>首页</title>
 		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<!--<link rel="stylesheet" href="css/Allclasses.css" />-->
 		<link rel="stylesheet" href="css/idangerous.swiper2.7.6.css" />
 		<link rel="stylesheet" href="css/index.css" />
 	</head>
@@ -21,43 +23,29 @@
 	</script>
 	<script src="js/selectivizr.js"></script>
 	<body>
-		<!--头部开始-->
-		<header>
-			<div class="head clearfix">
-				<div class="logo left">
-					<div class="logoimg left" style="width:110px;height:90px ;background:red;"></div>
-					<h2 class='right'>中汇创优</h2>
-				</div>
-				<div class="headcenter left">
-					<div class="headinput clearfix">
-						<input type="text" class='left'  value="请输入课程名称"/>
-						<div class='headsearch right'>搜索</div>
-					</div>
-					<ul class="headlist">
-						<li><a href="javascript:;">销售</a></li>
-						<li><a href="javascript:;">互联网</a></li>
-						<li><a href="javascript:;">财务</a></li>
-						<li><a href="javascript:;">行政</a></li>
-					</ul>
-				</div>
-				<div class="headright left">
-					<div class="loginstudent"><a href="html/login.html"><input type="button"  value='学员登陆'/></a></div>
-					<div class="logincompany"><input type="button"  value='企业登陆'/></div>
-				</div>
-			</div>
-			<!--导航开始-->
-			<nav>
+		<!--头部-->
+		<div class="header">
+			<!--导航-->
+			<div class="nav">
+				<img class="logo" src="img/logo_color.png"/>
+				<img class="icon_seacrh" src="img/icon_seacrh.png"/>
 				<ul>
-					<li><a href="index.html">首页</a></li>
-					<li><a href="javascript:;">就业课程</a></li>
-					<li><a href="javasrript:;">创业课程</a></li>
-					<li><a href="html/recruit.html">企业招聘</a></li>
-					<li><a href="html/create.html">创业资讯</a></li>
-					<li><a href="html/policy.html">政策信息</a></li>
+					<li><a href="javascript:;">首页</a></li>
+					<li><a href="employmentCourse.html">就业课程</a></li>
+					<li><a href="EntrepreneurshipClass.html">创业课程</a></li>
+					<li><a href="javascript:;">企业招聘</a></li>
+					<li><a href="javascript:;">创业资讯</a></li>
+					<li><a href="javascript:;">政策信息</a></li>
 				</ul>
-			</nav>
-			<!--导航结束-->
-		</header>
+				<ol>
+					<li><a href="javascript:;">注册</a></li>
+					<li><a href="javascript:;">登录</a></li>
+					<li class="nav_active"><a href="javascript:;">企业入口</a></li>
+				</ol>
+				<input type="text" name="" id="" value="搜索..." />
+			</div>
+		</div>
+		<div class="head"></div>
 		<!--头部结束-->
 		<!--轮播图开始-->
 		<section class='bannerwrap'>
@@ -67,10 +55,10 @@
 			  	<div class="swiper-container">
 				    <div class="swiper-wrapper">
 				      <div class="swiper-slide">
-				        <img src="img/banner1.jpg"/>
+				        <img src="img/Banner.png"/>
 				      </div>
 				      <div class="swiper-slide">
-				        <img src="img/banner2.jpg"/>
+				        <img src="img/Banner.png"/>
 				      </div>
 				      <div class="swiper-slide">
 				        <img src="img/banner3.jpg"/>
@@ -83,415 +71,541 @@
 		<!--轮播图结束-->
 		<!--课程开始-->
 		<section class='coursewrap'>
-			<div class="course">
-				<!--热门课程开始-->
-				<div class='hot'>
-					<div class="top">
-						<h2>热门课程</h2>
+			<!--热门课程-->
+			<div class="course-hot">
+				<!--标题-->
+				<div class="Title">
+					<h3>热门课程</h3>
+					<div class="CourseClass">
+						<span class="right more">更多</span>
 					</div>
-					<ul class='courselist'>
-						<li>
-							<img src="img/banner1.jpg" alt="" />
-							<div class="title1">
-								<h4>产品经理入门精讲，从零开始，无限进阶，至尊宝典</h4>
-							</div>
-							<div class="title2"><span class="left">5课时</span><span class='right'>免费</span></div>
-						</li>
-						<li>
-							<img src="img/banner1.jpg" alt="" />
-							<div class="title1">
-								<h4>产品经理入门精讲，从零开始，无限进阶，至尊宝典</h4>
-							</div>
-							<div class="title2"><span class="left">5课时</span><span class='right'>免费</span></div>
-						</li>
-						<li>
-							<img src="img/banner1.jpg" alt="" />
-							<div class="title1">
-								<h4>产品经理入门精讲，从零开始，无限进阶，至尊宝典</h4>
-							</div>
-							<div class="title2"><span class="left">5课时</span><span class='right'>免费</span></div>
-						</li>
-						<li>
-							<img src="img/banner1.jpg" alt="" />
-							<div class="title1">
-								<h4>产品经理入门精讲，从零开始，无限进阶，至尊宝典</h4>
-							</div>
-							<div class="title2"><span class="left">5课时</span><span class='right'>免费</span></div>
-						</li>
-						<li>
-							<img src="img/banner1.jpg" alt="" />
-							<div class="title1">
-								<h4>产品经理入门精讲，从零开始，无限进阶，至尊宝典</h4>
-							</div>
-							<div class="title2"><span class="left">5课时</span><span class='right'>免费</span></div>
-						</li>
-					</ul>
 				</div>
-				<!--热门课程结束-->
-				<!--就业课程开始-->
-				<div class='job'>
-					<div class="top">
-						<h2 class="left">就业课程</h2>
-						<ul class="coursenav left">
+				<!--课程列表-->
+				<div class="contenr">
+					<div class="contenr_list contenr_list_active">
+						<div class="contenr_list_a">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
+							</div>
+						</div>
+						<div class="contenr_list_a">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
+							</div>
+						</div>
+						<div class="contenr_list_a">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
+							</div>
+						</div>
+						<div class="contenr_list_a contert_list_last">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
+							</div>
+						</div>
+					</div>
+					<div class="contenr_list">
+						<div class="contenr_list_a">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
+							</div>
+						</div>
+						
+						<div class="contenr_list_a">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
+							</div>
+						</div>
+						<div class="contenr_list_a">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
+							</div>
+						</div>
+						<div class="contenr_list_a contert_list_last">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--热门课程结束-->
+			<!--就业课程开始-->
+			<div class="course-job">
+				<!--标题-->
+				<div class="Title">
+					<h3>就业课程</h3>
+					<div class="CourseClass">
+						<ul>
+							<li><a href="javascript:;">更多</a></li>
+							<li><a href="javascript:;">人力资源</a></li>
 							<li><a href="javascript:;">财务</a></li>
 							<li><a href="javascript:;">人力资源</a></li>
-							<li><a href="javascript:;">法务</a></li>
-							<li><a href="javascript:;">人力资源</a></li>
+							<li><a href="javascript:;">职场新人</a></li>
 						</ul>
 					</div>
-					<ul class='courselist'>
-						<li>
-							<img src="img/banner1.jpg" alt="" />
-							<div class="title1">
-								<h4>产品经理入门精讲，从零开始，无限进阶，至尊宝典</h4>
-							</div>
-							<div class="title2"><span class="left">5课时</span><span class='right'>免费</span></div>
-						</li>
-						<li>
-							<img src="img/banner1.jpg" alt="" />
-							<div class="title1">
-								<h4>产品经理入门精讲，从零开始，无限进阶，至尊宝典</h4>
-							</div>
-							<div class="title2"><span class="left">5课时</span><span class='right'>免费</span></div>
-						</li>
-						<li>
-							<img src="img/banner1.jpg" alt="" />
-							<div class="title1">
-								<h4>产品经理入门精讲，从零开始，无限进阶，至尊宝典</h4>
-							</div>
-							<div class="title2"><span class="left">5课时</span><span class='right'>免费</span></div>
-						</li>
-						<li>
-							<img src="img/banner1.jpg" alt="" />
-							<div class="title1">
-								<h4>产品经理入门精讲，从零开始，无限进阶，至尊宝典</h4>
-							</div>
-							<div class="title2"><span class="left">5课时</span><span class='right'>免费</span></div>
-						</li>
-						<li>
-							<img src="img/banner1.jpg" alt="" />
-							<div class="title1">
-								<h4>产品经理入门精讲，从零开始，无限进阶，至尊宝典</h4>
-							</div>
-							<div class="title2"><span class="left">5课时</span><span class='right'>免费</span></div>
-						</li>
-					</ul>
 				</div>
-				<!--就业课程结束-->
-				<!--创业课程开始-->
-				<div class='creat'>
-					<div class="top">
-						<h2 class="left">创业课程</h2>
-						<ul class="coursenav left">
-							<li><a href="javascript:;">IT</a></li>
-							<li><a href="javascript:;">讲师培训</a></li>
-							<li><a href="javascript:;">创业达人</a></li>
-						</ul>
+				<!--课程列表-->
+				<div class="contenr">
+					<div class="contenr_list contenr_list_active">
+						<div class="contenr_list_a">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
+							</div>
+						</div>
+						<div class="contenr_list_a">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
+							</div>
+						</div>
+						<div class="contenr_list_a">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
+							</div>
+						</div>
+						<div class="contenr_list_a contert_list_last">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
+							</div>
+						</div>
 					</div>
-					<ul class='courselist'>
-						<li>
-							<img src="img/banner1.jpg" alt="" />
-							<div class="title1">
-								<h4>产品经理入门精讲，从零开始，无限进阶，至尊宝典</h4>
+					<div class="contenr_list">
+						<div class="contenr_list_a">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
 							</div>
-							<div class="title2"><span class="left">5课时</span><span class='right'>免费</span></div>
-						</li>
-						<li>
-							<img src="img/banner1.jpg" alt="" />
-							<div class="title1">
-								<h4>产品经理入门精讲，从零开始，无限进阶，至尊宝典</h4>
+						</div>
+						
+						<div class="contenr_list_a">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
 							</div>
-							<div class="title2"><span class="left">5课时</span><span class='right'>免费</span></div>
-						</li>
-						<li>
-							<img src="img/banner1.jpg" alt="" />
-							<div class="title1">
-								<h4>产品经理入门精讲，从零开始，无限进阶，至尊宝典</h4>
+						</div>
+						<div class="contenr_list_a">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
 							</div>
-							<div class="title2"><span class="left">5课时</span><span class='right'>免费</span></div>
-						</li>
-						<li>
-							<img src="img/banner1.jpg" alt="" />
-							<div class="title1">
-								<h4>产品经理入门精讲，从零开始，无限进阶，至尊宝典</h4>
+						</div>
+						<div class="contenr_list_a contert_list_last">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
 							</div>
-							<div class="title2"><span class="left">5课时</span><span class='right'>免费</span></div>
-						</li>
-						<li>
-							<img src="img/banner1.jpg" alt="" />
-							<div class="title1">
-								<h4>产品经理入门精讲，从零开始，无限进阶，至尊宝典</h4>
-							</div>
-							<div class="title2"><span class="left">5课时</span><span class='right'>免费</span></div>
-						</li>
-					</ul>
+						</div>
+					</div>
 				</div>
-				<!--创业课程结束-->
 			</div>
+			<!--就业课程结束-->
+			<!--创业课程开始-->
+			<div class="course-create">
+				<!--标题-->
+				<div class="Title">
+					<h3>创业课程</h3>
+					<div class="CourseClass">
+						<ul>
+							<li><a href="javascript:;">更多</a></li>
+							<li><a href="javascript:;">IT</a></li>
+							<li><a href="javascript:;">培训达人</a></li>
+							<li><a href="javascript:;">创业达人</a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<!--课程列表-->
+				<div class="contenr">
+					<div class="contenr_list contenr_list_active">
+						<div class="contenr_list_a">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
+							</div>
+						</div>
+						<div class="contenr_list_a">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
+							</div>
+						</div>
+						<div class="contenr_list_a">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
+							</div>
+						</div>
+						<div class="contenr_list_a contert_list_last">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
+							</div>
+						</div>
+					</div>
+					<div class="contenr_list">
+						<div class="contenr_list_a">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
+							</div>
+						</div>
+						
+						<div class="contenr_list_a">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
+							</div>
+						</div>
+						<div class="contenr_list_a">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
+							</div>
+						</div>
+						<div class="contenr_list_a contert_list_last">
+							<img src="img/pro.jpg"/>
+							<div class="contenr_list_b">
+								<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+								<span>5课时</span>
+								<input type="button" value="免费" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--创业课程结束-->
 		</section>
 		<!--课程结束-->
 		<!--创业，资讯，，机构开始-->
-		<section class='companywrap'>
-			<div class="company">
+		<section class='companywrap clearfix'>
 				<!--企业招聘开始-->
-				<div class='recruit'>
-					<div class="recruitleft left">
-						<div class="top">
-							<h3 class='left'>企业招聘 </h3><p class='right'>更多</p>
+				<div class='recruit clearfix'>
+					<!--标题-->
+					<div class="Title">
+						<h3>企业招聘</h3>
+						<div class="CourseClass">
+							<span class="right more">更多</span>
 						</div>
-						<ul>
-							<li><span class="recruittitle">职位名称</span><span class="recruitcompany">公司名称</span><span class="recruitpay">职位月薪</span><span class="recruitplace">工作地点</span></li>
-							<li>
-								<a href="javascript:;">
-									<span class="recruittitle">销售/电销/可实习/可无经验（无责4k+高提双休+晋升+旅游、奖金</span>
-									<span class="recruitcompany">中域永信(北京)科技有限公司</span>
-									<span class="recruitpay">10001-15000</span>
-									<span class="recruitplace">北京</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:;">
-									<span class="recruittitle">销售/电销/可实习/可无经验（无责4k+高提双休+晋升+旅游、奖金</span>
-									<span class="recruitcompany">中域永信(北京)科技有限公司</span>
-									<span class="recruitpay">10001-15000</span>
-									<span class="recruitplace">北京</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:;">
-									<span class="recruittitle">销售/电销/可实习/可无经验（无责4k+高提双休+晋升+旅游、奖金</span>
-									<span class="recruitcompany">中域永信(北京)科技有限公司</span>
-									<span class="recruitpay">10001-15000</span>
-									<span class="recruitplace">北京</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:;">
-									<span class="recruittitle">销售/电销/可实习/可无经验（无责4k+高提双休+晋升+旅游、奖金</span>
-									<span class="recruitcompany">中域永信(北京)科技有限公司</span>
-									<span class="recruitpay">10001-15000</span>
-									<span class="recruitplace">北京</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:;">
-									<span class="recruittitle">销售/电销/可实习/可无经验（无责4k+高提双休+晋升+旅游、奖金</span>
-									<span class="recruitcompany">中域永信(北京)科技有限公司</span>
-									<span class="recruitpay">10001-15000</span>
-									<span class="recruitplace">北京</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:;">
-									<span class="recruittitle">销售/电销/可实习/可无经验（无责4k+高提双休+晋升+旅游、奖金</span>
-									<span class="recruitcompany">中域永信(北京)科技有限公司</span>
-									<span class="recruitpay">10001-15000</span>
-									<span class="recruitplace">北京</span>
-								</a>
-							</li>
-						</ul>
 					</div>
-					<div class="recruitright right">
-						<div class="top">
-							<h3>名企招聘 </h3>
-						</div>
-						<ul>
-							<li><span class="recruittitle">公司名称</span><span class="recruitcompany">职位名称</span></li>
-							<li>
-								<a href="javascript:;">
-									<span class="recruittitle">智通驰达商贸有限责任公司</span>
-									<span class="recruitcompany">策划专员</span>
-								
-								</a>
-							</li>
-							<li>
-								<a href="javascript:;">
-									<span class="recruittitle">智通驰达商贸有限责任公司</span>
-									<span class="recruitcompany">策划专员</span>
-									
-								</a>
-							</li>
-							<li>
-								<a href="javascript:;">
-									<span class="recruittitle">智通驰达商贸有限责任公司</span>
-									<span class="recruitcompany">策划专员</span>
-								
-								</a>
-							</li>
-							<li>
-								<a href="javascript:;">
-									<span class="recruittitle">智通驰达商贸有限责任公司</span>
-									<span class="recruitcompany">策划专员</span>
-								
-								</a>
-							</li>
-							<li>
-								<a href="javascript:;">
-									<span class="recruittitle">智通驰达商贸有限责任公司</span>
-									<span class="recruitcompany">策划专员</span>
-									
-								</a>
-							</li>
-							<li>
-								<a href="javascript:;">
-									<span class="recruittitle">智通驰达商贸有限责任公司</span>
-									<span class="recruitcompany">策划专员</span>
-									
-								</a>
-							</li>
-						</ul>
-					</div>
+					<!--招聘列表-->
+					<ul class="contenr clearfix">
+						<li>
+							<div class="top clearfix">
+								<b class="left">PHP[上海]</b><span class="time">14：05发布</span><b class="right">中域永信(北京)科技有限公司</b>
+							</div>
+							<div class="center">
+								<i>15k-20k</i><span class="years">经验3-5年 /本科</span><span class="right">移动互联网,企业服务 / 成熟型(D轮及以上)</span>
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<i>技能培训</i><i>带薪年假</i><i>技能培训</i><i>带薪年假</i>
+								</div>
+								<div class="right">
+									<i>技能培训</i><i>带薪年假</i><i>技能培训</i>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="top clearfix">
+								<b class="left">PHP[上海]</b><span class="time">14：05发布</span><b class="right">中域永信(北京)科技有限公司</b>
+							</div>
+							<div class="center">
+								<i>15k-20k</i><span class="years">经验3-5年 /本科</span><span class="right">移动互联网,企业服务 / 成熟型(D轮及以上)</span>
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<i>技能培训</i><i>带薪年假</i><i>技能培训</i><i>带薪年假</i>
+								</div>
+								<div class="right">
+									<i>技能培训</i><i>带薪年假</i><i>技能培训</i>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="top clearfix">
+								<b class="left">PHP[上海]</b><span class="time">14：05发布</span><b class="right">中域永信(北京)科技有限公司</b>
+							</div>
+							<div class="center">
+								<i>15k-20k</i><span class="years">经验3-5年 /本科</span><span class="right">移动互联网,企业服务 / 成熟型(D轮及以上)</span>
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<i>技能培训</i><i>带薪年假</i><i>技能培训</i><i>带薪年假</i>
+								</div>
+								<div class="right">
+									<i>技能培训</i><i>带薪年假</i><i>技能培训</i>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="top clearfix">
+								<b class="left">PHP[上海]</b><span class="time">14：05发布</span><b class="right">中域永信(北京)科技有限公司</b>
+							</div>
+							<div class="center">
+								<i>15k-20k</i><span class="years">经验3-5年 /本科</span><span class="right">移动互联网,企业服务 / 成熟型(D轮及以上)</span>
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<i>技能培训</i><i>带薪年假</i><i>技能培训</i><i>带薪年假</i>
+								</div>
+								<div class="right">
+									<i>技能培训</i><i>带薪年假</i><i>技能培训</i>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="top clearfix">
+								<b class="left">PHP[上海]</b><span class="time">14：05发布</span><b class="right">中域永信(北京)科技有限公司</b>
+							</div>
+							<div class="center">
+								<i>15k-20k</i><span class="years">经验3-5年 /本科</span><span class="right">移动互联网,企业服务 / 成熟型(D轮及以上)</span>
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<i>技能培训</i><i>带薪年假</i><i>技能培训</i><i>带薪年假</i>
+								</div>
+								<div class="right">
+									<i>技能培训</i><i>带薪年假</i><i>技能培训</i>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="top clearfix">
+								<b class="left">PHP[上海]</b><span class="time">14：05发布</span><b class="right">中域永信(北京)科技有限公司</b>
+							</div>
+							<div class="center">
+								<i>15k-20k</i><span class="years">经验3-5年 /本科</span><span class="right">移动互联网,企业服务 / 成熟型(D轮及以上)</span>
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<i>技能培训</i><i>带薪年假</i><i>技能培训</i><i>带薪年假</i>
+								</div>
+								<div class="right">
+									<i>技能培训</i><i>带薪年假</i><i>技能培训</i>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="top clearfix">
+								<b class="left">PHP[上海]</b><span class="time">14：05发布</span><b class="right">中域永信(北京)科技有限公司</b>
+							</div>
+							<div class="center">
+								<i>15k-20k</i><span class="years">经验3-5年 /本科</span><span class="right">移动互联网,企业服务 / 成熟型(D轮及以上)</span>
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<i>技能培训</i><i>带薪年假</i><i>技能培训</i><i>带薪年假</i>
+								</div>
+								<div class="right">
+									<i>技能培训</i><i>带薪年假</i><i>技能培训</i>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="top clearfix">
+								<b class="left">PHP[上海]</b><span class="time">14：05发布</span><b class="right">中域永信(北京)科技有限公司</b>
+							</div>
+							<div class="center">
+								<i>15k-20k</i><span class="years">经验3-5年 /本科</span><span class="right">移动互联网,企业服务 / 成熟型(D轮及以上)</span>
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<i>技能培训</i><i>带薪年假</i><i>技能培训</i><i>带薪年假</i>
+								</div>
+								<div class="right">
+									<i>技能培训</i><i>带薪年假</i><i>技能培训</i>
+								</div>
+							</div>
+						</li>
+					</ul>
 				</div>
 				<!--企业招聘结束-->
 				<!--创业资讯开始-->
-				<div class="news clearfix">
-					<div class="top clearfix">
-						<h3 class="left">创业资讯</h3><p class='right'>更多</p>
+				<div class="news">
+					<!--标题-->
+					<div class="Title">
+						<h3>创业资讯</h3>
+						<div class="CourseClass">
+							<span class="right more">更多</span>
+						</div>
 					</div>
-					<dl class='clearfix'>
-						<dt class="left"><img src="img/banner1.jpg"/></dt>
-						<dd class="right">
-							<div class="title1">
-								<h4>腾讯、王兴参投摩拜单车；三星未能查明Note 7自燃原因；雷军：小米不只是卖手机的</h4>
+					<!--课程列表-->
+					<div class="contenr">
+						<div class="contenr_list contenr_list_active">
+							<div class="contenr_list_a">
+								<img src="img/pro.jpg"/>
+								<div class="contenr_list_b">
+									<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+									<span>5课时</span>
+									<span class="from right">创业资讯</span>
+								</div>
 							</div>
-							<div class="title2">
-								<span class="left">行业资讯</span>
-								<span class="right">3个小时前</span>
+							<div class="contenr_list_a">
+								<img src="img/pro.jpg"/>
+								<div class="contenr_list_b">
+									<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+									<span>5课时</span>
+									<span class="from right">创业资讯</span>
+								</div>
 							</div>
-						</dd>
-					</dl>
-					<dl class='clearfix'>
-						<dt class="left"><img src="img/banner1.jpg"/></dt>
-						<dd class="right">
-							<div class="title1">
-								<h4>腾讯、王兴参投摩拜单车；三星未能查明Note 7自燃原因；雷军：小米不只是卖手机的</h4>
+							<div class="contenr_list_a">
+								<img src="img/pro.jpg"/>
+								<div class="contenr_list_b">
+									<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+									<span>5课时</span>
+									<span class="from right">创业资讯</span>
+								</div>
 							</div>
-							<div class="title2">
-								<span class="left">行业资讯</span>
-								<span class="right">3个小时前</span>
+							<div class="contenr_list_a contert_list_last">
+								<img src="img/pro.jpg"/>
+								<div class="contenr_list_b">
+									<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+									<span>5课时</span>
+									<span class="from right">创业资讯</span>
+								</div>
 							</div>
-						</dd>
-					</dl>
-					<dl class='clearfix'>
-						<dt class="left"><img src="img/banner1.jpg"/></dt>
-						<dd class="right">
-							<div class="title1">
-								<h4>腾讯、王兴参投摩拜单车；三星未能查明Note 7自燃原因；雷军：小米不只是卖手机的</h4>
+						</div>
+						<div class="contenr_list">
+							<div class="contenr_list_a">
+								<img src="img/pro.jpg"/>
+								<div class="contenr_list_b">
+									<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+									<span>5课时</span>
+									<span class="from right">创业资讯</span>
+								</div>
 							</div>
-							<div class="title2">
-								<span class="left">行业资讯</span>
-								<span class="right">3个小时前</span>
+							
+							<div class="contenr_list_a">
+								<img src="img/pro.jpg"/>
+								<div class="contenr_list_b">
+									<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+									<span>5课时</span>
+									<span class="from right">创业资讯</span>
+								</div>
 							</div>
-						</dd>
-					</dl>
-					<dl class='clearfix'>
-						<dt class="left"><img src="img/banner1.jpg"/></dt>
-						<dd class="right">
-							<div class="title1">
-								<h4>腾讯、王兴参投摩拜单车；三星未能查明Note 7自燃原因；雷军：小米不只是卖手机的</h4>
+							<div class="contenr_list_a">
+								<img src="img/pro.jpg"/>
+								<div class="contenr_list_b">
+									<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+									<span>5课时</span>
+									<span class="from right">创业资讯</span>
+								</div>
 							</div>
-							<div class="title2">
-								<span class="left">行业资讯</span>
-								<span class="right">3个小时前</span>
+							<div class="contenr_list_a contert_list_last">
+								<img src="img/pro.jpg"/>
+								<div class="contenr_list_b">
+									<p>产品经理入门精讲，从零开始，无限进阶，至尊宝典</p>
+									<span>5课时</span>
+									<span class="from right">创业资讯</span>
+								</div>
 							</div>
-						</dd>
-					</dl>
-					<dl class='clearfix'>
-						<dt class="left"><img src="img/banner1.jpg"/></dt>
-						<dd class="right">
-							<div class="title1">
-								<h4>腾讯、王兴参投摩拜单车；三星未能查明Note 7自燃原因；雷军：小米不只是卖手机的</h4>
-							</div>
-							<div class="title2">
-								<span class="left">行业资讯</span>
-								<span class="right">3个小时前</span>
-							</div>
-						</dd>
-					</dl>
-					<dl class='clearfix'>
-						<dt class="left"><img src="img/banner1.jpg"/></dt>
-						<dd class="right">
-							<div class="title1">
-								<h4>腾讯、王兴参投摩拜单车；三星未能查明Note 7自燃原因；雷军：小米不只是卖手机的</h4>
-							</div>
-							<div class="title2">
-								<span class="left">行业资讯</span>
-								<span class="right">3个小时前</span>
-							</div>
-						</dd>
-					</dl>
+						</div>
+					</div>
 				</div>
 				<!--创业资讯结束-->
 				<!--合作机构开始-->
 				<div class="team">
-					<div class="top">
-						<h3>合作机构</h3>
+					<!--标题-->
+					<div class="Title">
+						<h3>创业资讯</h3>
+						<div class="CourseClass">
+							<span class="right more">更多</span>
+						</div>
 					</div>
-					<!-- Swiper -->
-					<div class="proswiper">
-						<p class="arrow-left">
-							<a href="javascript:;"></a>
-						</p>
-						 <p class="arrow-right">
-						 	<a href="javascript:;"></a>
-						 </p>
-		  				
-						<div class="swiper-container">
-						    <div class="swiper-wrapper">
-						      <div class="swiper-slide">
-						      	<div class="border">
-							        <a href="javascript:;"><img src="img/pro.jpg" alt="" /></a>
-						      	</div>
-						      </div>
-						      <div class="swiper-slide">
-						        <div class="border">
-							        <a href="javascript:;"><img src="img/pro.jpg" alt="" /></a>
-						      	</div>
-						      </div>
-						      <div class="swiper-slide">
-						        <div class="border">
-							        <a href="javascript:;"><img src="img/pro.jpg" alt="" /></a>
-						      	</div>
-						      </div>
-						      <div class="swiper-slide">
-						        <div class="border">
-							        <a href="javascript:;"><img src="img/pro.jpg" alt="" /></a>
-						      	</div>
-						      </div>
-						      <div class="swiper-slide">
-						        <div class="border">
-							        <a href="javascript:;"><img src="img/pro.jpg" alt="" /></a>
-						      	</div>
-						      </div>
-						      <div class="swiper-slide">
-						        <div class="border">
-							        <a href="javascript:;"><img src="img/pro.jpg" alt="" /></a>
-						      	</div>
-						      </div>
-						      <div class="swiper-slide">
-						        <div class="border">
-							        <a href="javascript:;"><img src="img/pro.jpg" alt="" /></a>
-						      	</div>
-						      </div>
-						      <div class="swiper-slide">
-						        <div class="border">
-							        <a href="javascript:;"><img src="img/pro.jpg" alt="" /></a>
-						      	</div>
-						      </div>
-						    </div>
-						    <div class="pagination"></div>
-						  </div>
-					</div>
-				</div>
+					<!--内容-->
+					<ul class="contenr clearfix">
+						<li><img src="img/logo_gray.png" alt="" /></li>
+						<li><img src="img/logo1.jpg" alt="" /></li>
+						<li><img src="img/logo1.jpg" alt="" /></li>
+						<li><img src="img/logo1.jpg" alt="" /></li>
+						<li><img src="img/logo1.jpg" alt="" /></li>
+						<li><img src="img/logo1.jpg" alt="" /></li>
+						<li><img src="img/logo1.jpg" alt="" /></li>
+						<li><img src="img/logo1.jpg" alt="" /></li>
+						<li><img src="img/logo1.jpg" alt="" /></li>
+						<li><img src="img/logo1.jpg" alt="" /></li>
+						<li><img src="img/logo1.jpg" alt="" /></li>
+						<li><img src="img/logo1.jpg" alt="" /></li>
+						<li><img src="img/logo1.jpg" alt="" /></li>
+						<li><img src="img/logo1.jpg" alt="" /></li>
+						<li><img src="img/logo1.jpg" alt="" /></li>
+						<li><img src="img/logo1.jpg" alt="" /></li>
+						<li><img src="img/logo1.jpg" alt="" /></li>
+						<li><img src="img/logo1.jpg" alt="" /></li>
+					</ul>
+				</div>	
 				<!--合作机构结束-->
-			</div>
 		</section>	
 		<!--招聘，资讯，机构结束-->
 		<!--底部开始-->
-		<footer>
-			<div class="footer">
-				<div class="footer_contenr">
-					<i>中创汇优，为您所用</i>
+		<div class="footer">
+			<div class="footer_contenr">
+				<div class="footer_left">
+					<img class="footer_logo" src="./img/logo_gray.png"/>
+					<h3>中创汇优，为您所用</h3>
+					<p>华亿创优旗下实用技能学习平台。与顶级机构、院校</p>
+					<p>和优秀讲师合作，为您提供海量优质课程，以及创新</p>
+					<p>的在线学习体验，帮助您获得全新的个人发展和能力提升。</p>
+				</div>
+				<div class="footer_right">
 					<ul>
 						<li><a href="javascript:;">关于我们</a></li>
 						<li><a href="javascript:;">诚聘英才</a></li>
@@ -499,11 +613,11 @@
 						<li><a href="javascript:;">法律声明</a></li>
 						<li><a href="javascript:;">网站协议</a></li>
 					</ul>
-					<p>Copyright © 2016 中汇创优  All Rights Reserved.</p>
-					<p>北京中汇创优有限公司  版权所有</p>
+					<p>北京中汇创优有限公司&nbsp;&nbsp;版权所有</p>
+					<p class="footer_right_p">Copyright&nbsp;©&nbsp;2016&nbsp;中汇创优&nbsp;All&nbsp;Rights&nbsp;Reserved.</p>
 				</div>
 			</div>
-		</footer>
+		</div>
 		<!--底部结束-->
 	</body>
 	<script src="js/jquery-1.10.1.min.js"></script>
