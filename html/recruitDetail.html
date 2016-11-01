@@ -6,6 +6,7 @@
 			<link rel="stylesheet" href="../css/reset.css" />
 			<link rel="stylesheet" href="../css/common.css" />
 			<link rel="stylesheet" href="../css/recruitDetail.css" />
+			
 	</head>
 	<script> 
 	   (function() {
@@ -24,18 +25,22 @@
 		<div class="header">
 			<!--导航-->
 			<div class="nav">
-				<!--<img class="logo" src="../img/logo1.jpg"/>-->
-				<div class="logo"></div>
+				<img class="logo" src="../img/logo_color.png"/>
+				<img class="icon_seacrh" src="../img/icon_seacrh.png"/>
 				<ul>
 					<li><a href="javascript:;">首页</a></li>
-					<li><a href="javascript:;">就业课程</a></li>
-					<li><a href="javascript:;">创业课程</a></li>
+					<li><a href="employmentCourse.html">就业课程</a></li>
+					<li><a href="EntrepreneurshipClass.html">创业课程</a></li>
 					<li><a href="javascript:;">企业招聘</a></li>
 					<li><a href="javascript:;">创业资讯</a></li>
 					<li><a href="javascript:;">政策信息</a></li>
 				</ul>
-				<button class="Signin">登录</button>
-				<button class="register">注册</button>
+				<ol>
+					<li><a href="javascript:;">注册</a></li>
+					<li><a href="javascript:;">登录</a></li>
+					<li class="nav_active"><a href="javascript:;">企业入口</a></li>
+				</ol>
+				<input type="text" name="" id="" value="搜索..." />
 			</div>
 		</div>
 		<div class="head"></div>
@@ -43,79 +48,85 @@
 		<!--内容开始-->
 		<section class="recruitDetailwrap">
 			<div class="recruitDetail">
-				<nav>
-				    <div class="crumbsnav">
+		<div class="box"></div>
+					<div class="crumbsnav">
 				  		<p><a href="recruit.html">企业招聘</a><i>></i><a href="recruitDetail.html">高级软件工程师</a></p>
-				    </div>
-		    		<dl>
-		    			<dt class="left">
-		    				<h2>高级硬件工程师</h2>
-		    				<p><span>北京汉时电子科技有限公司</span><span>北京</span></p>
-		    			</dt>
-		    			<dd class='left'>10000-14999元/月</dd>
-		    		</dl>
-				</nav>
-				<article>
+				   </div>
+				    
+				<article class="recruitDetail_contenr">
+					<div class="position">
+						<img class="Angle" src="../img/Angle.png" alt="" />
+						<div class="position_name">
+							<span>PHP</span>
+						</div>
+						<p class="positionP_one">中域永信(北京)科技有限公司</p>
+						<p class="positionP_two">移动互联网,企业服务 / 成熟型(D轮及以上)</p>
+						<p class="positionP_three"><i>15K-20K</i><span>上海</span><span>经验3-5年/本科</span><span>本科及以上</span><span>全职</span></p>
+						<p class="positionP_four"><span>技能培训</span><span>带薪年假</span><span>绩效奖金</span><span>岗位晋升</span></p>
+						<p class="positionP_five"><span>半年调薪</span><span>工作日三餐</span><span>国外旅游</span></p>
+						<p class="positionP_six">14.05发布</p>
+						<img src="../img/03_03.jpg" alt="" />
+					</div>
 					<dl class='describe'>
 						<dt>职位描述</dt>
 						<dd>
 							<p>岗位职责：<br />
-								1. 负责公司项目或产品的硬件设计开发。<br />
-								2. 负责公司项目或产品的硬件调试。<br />
-								3.负责公司硬件研发的技术储备和前瞻性研究
+								1、负责App后台及HTML5应用后台的模块设计、代码编写、单元测试等工作；<br />
+								2、与前端／客户端工程师配合完成数据接口对接；<br />
+								3、参与数据统计相关技术选型、流程设计及实现；
 							</p>
 							<p>
 								任职资格：<br />
-								1、电子、通信相关专业本科以上学历，具有五年以上硬件开发的工作经验；<br />
-								2、熟练掌握Cadence设计开发工具进行电路设计工作，具有五年以上硬件电路研发工作经验，并有成功的设计案例；<br />
-								3、熟练掌握数字信号处理算法的相关硬件系统和板卡实现、数字电路设计和扩频通信基本原理；并在工作实践中有过成功应用；<br />
-								4、熟练使用示波器、频谱仪等测试设备；<br />
-								5、具备良好的硬件调试测试基础，能够独立解决硬件开发中的问题；<br />
-								6、熟悉FPGA、DSP、ARM等硬件的开发环境；<br />
-								7、熟悉卫星导航系统开发者优先。<br />
-								8、具有良好的团队合作意识和沟通能力；<br />
-								9、具有良好的文档编辑能力。<br />
+								1、熟练掌握Java开发语言，深刻理解面向对象，掌握多线程编程、序列化机制、了解JVM；<br />
+								2、掌握常用数据结构以及算法，掌握常用设计模式；<br />
+								3、熟练使用主流开源框架，如Spring、MyBatis、SpringMVC等；<br />
+								4、具备良好的编程风格；<br />
+								5、熟练掌握MongoDB，具备MongoDB优化经验；<br />
+								6、了解Memcache、Redis等常用Cache解决方案，了解各自的优缺点以及使用场景；<br />
+								7、两年以上Java开发工作经验；<br />
+								8、工作积极主动，富有责任感；善于抽象、总结、思考，对技术有执着追求；<br />
+								9、掌握Spring Boot、Dubbo、Netty等技术，熟悉Java8新特性，并有实际项目经验者优先；<br />
+								10、掌握基于JVM的动态语言，如Groovy，Scala等优先；
 							</p>
 						</dd>
 					</dl>
 					<dl class='detail'>
-						<dt>企业信息</dt>
+						<dt>企业介绍</dt>
 						<dd>
+							<h3>企业信息</h3>
 							<p>
-								汉朔科技是知名的商业智能解决方案提供商，引领行业创新潮流，将移动互联技术、物联网技术与新商业理念融合，以自主研发的电子标签为核心，为全球客户提供有竞争力的商业解决方案，帮助客户降低运营成本，提升工作效率，创造新的商业模式，为客户赢得更大的市场份额和更持续的竞争优势。
+								汉朔科技是知名的商业智能解决方案提供商，引领行业创新潮流，将移动互联技术、物联网技术与新商业理念融合，以自主研发的电子标签为核心，为全球客户提供有竞争力的商业解决方案，
+								帮助客户降低运营成本，提升工作效率，创造新的商业模式，为客户赢得更大的市场份额和更持续的竞争优势。
 							</p>
-							<p>
-								朔科技拥有业内资深的技术团队和完整的端到端的产品线，公司在北京、浙江、江苏等地都设有研发团队，专注于行业技术创新。凭借强大的技术实力及富有激情的高效团队，结合先进的科研能力和丰富的行业经验，汉朔科技设计和研发了零售、物流、仓储、医药、酒店等多个领域的商业智能解决方案，积累了丰富的跨领域服务经验
-							</p>
-							<p>
-								品牌承诺<br />
-								公司定位：聚焦客户关注和挑战，为客户提供更有价值的产品<br />
-								产品定位：基于ESL产品，构建零售全渠道<br />
-								品牌优势：持续领先的自主研发能力；集成创新的技术和产品设计的能力；全产业链的资源整合能力<br />
-								经营理念：创造新的商业模式，为客户实现利益大化。<br />
-								研发理念：深入了解商业智能领域的技术趋势，为消费者和商家提供基于用户体验优化的产品和解决方案。<br />
-								服务理念：迅速反应，第一时间帮助客户解决问题，帮助客户提升解决问题的能力<br />
-								企业精神：锐意开拓、聚焦创新、追求卓越、引领潮流<br />
-								社会责任：积极响应国家“节能减排、保护环境”的号召，努力实现产品的绿色可持续性环保理念。<br />
-							</p>
-							<p>
-								公司网站：http://www.hanshows.com/
-							</p>
-							<p>
-								福利待遇：不低于行业薪酬，五险一金，周末双休，早九点到九点半、晚六点到六点半（弹性时间），首年7天带薪年假（不含周六日）次年依次增加，节日福利，兴趣小组，邀请行业大牛不定期的员工培训，每周茶话会，每月生日活动，每月主题活动，员工旅游等等等.........！
-							</p>
+							<h3>品牌承诺</h3>
+							<p><i>公司定位：</i><span>聚焦客户关注和挑战，为客户提供更有价值的产品</span></p>
+							<p><i>产品定位：</i><span>基于ESL产品，构建零售全渠道</span></p>
+							<p><i>品牌优势：</i><span>持续领先的自主研发能力；集成创新的技术和产品设计的能力；全产业链的资源整合能力</span></p>
+							<p><i>经营理念：</i><span>创造新的商业模式，为客户实现利益大化。</span></p>
+							<p><i>研发理念：</i><span>深入了解商业智能领域的技术趋势，为消费者和商家提供基于用户体验优化的产品和解决方案。</span></p>
+							<p><i>服务理念：</i><span>迅速反应，第一时间帮助客户解决问题，帮助客户提升解决问题的能力</span></p>
+							<p><i>企业精神：</i><span>锐意开拓、聚焦创新、追求卓越、引领潮流</span></p>
+							<p><i>社会责任：</i><span>积极响应国家“节能减排、保护环境”的号召，努力实现产品的绿色可持续性环保理念。</span></p>
+							<p><i>公司网站：</i><span>http://www.hanshows.com/</span></p>
+							<p><i>福利待遇：</i><span>不低于行业薪酬，五险一金，周末双休，早九点到九点半、晚六点到六点半（弹性时间），首年7天带薪年假（不含周六日）次年依次增加，节日福利，兴趣小组，邀请行业大牛不定期的员工培训，每周茶话会，每月生日活动，每月主题活动，员工旅游等等等.........！</span></p>
 						</dd>
 					</dl>
-					</div>
 				</article>
+				</div>
 			</div>
 		</section>
 		<!--内容结束-->
 		<!--底部开始-->
-		<footer>
-			<div class="footer">
-				<div class="footer_contenr">
-					<i>中创汇优，为您所用</i>
+		<div class="footer">
+			<div class="footer_contenr">
+				<div class="footer_left">
+					<img class="footer_logo" src="../img/logo_gray.png"/>
+					<h3>中创汇优，为您所用</h3>
+					<p>华亿创优旗下实用技能学习平台。与顶级机构、院校</p>
+					<p>和优秀讲师合作，为您提供海量优质课程，以及创新</p>
+					<p>的在线学习体验，帮助您获得全新的个人发展和能力提升。</p>
+				</div>
+				<div class="footer_right">
 					<ul>
 						<li><a href="javascript:;">关于我们</a></li>
 						<li><a href="javascript:;">诚聘英才</a></li>
@@ -123,11 +134,11 @@
 						<li><a href="javascript:;">法律声明</a></li>
 						<li><a href="javascript:;">网站协议</a></li>
 					</ul>
-					<p>Copyright © 2016 中汇创优  All Rights Reserved.</p>
-					<p>北京中汇创优有限公司  版权所有</p>
+					<p>北京中汇创优有限公司&nbsp;&nbsp;版权所有</p>
+					<p class="footer_right_p">Copyright&nbsp;©&nbsp;2016&nbsp;中汇创优&nbsp;All&nbsp;Rights&nbsp;Reserved.</p>
 				</div>
 			</div>
-		</footer>
+		</div>
 		<!--底部结束-->
 	</body>
 </html>

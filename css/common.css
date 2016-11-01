@@ -47,3 +47,20 @@ color: #999999;}
 .footer_right p{text-align: right;color: #ccc;font-size: 14px;line-height: 20px;color: #989898;float:right;}
 .footer_right .footer_right_p{clear: both;}
 .footer_logo{margin-top: 60px;}
+
+
+.clearfix:after {
+content: "";
+display: block;
+height: 0;
+clear: both;
+}
+.clearfix {
+zoom: 1;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}

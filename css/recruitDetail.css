@@ -4,73 +4,69 @@
 	width:100%;
 }
 .recruitDetail{
-	width:1200px;
+	width:1190px;
 	margin:0 auto;
-	margin-bottom: 45px;
+	margin-bottom: 60px;
+	position: relative;
 }
-.recruitDetail nav .crumbsnav{
-	height:50px;
-	line-height: 45px;
+.recruitDetail_contenr{
+	width: 1188px;
+	/*height: 1418px;*/
+	border: 1px solid #d3d6db;
+	background: #fafafa;
+	box-shadow: 0px 5px 8px rgba(66, 66, 66, .1);
 }
-.recruitDetail nav .crumbsnav i{
-	font-style: normal;
-	padding:0 10px;
-	font-weight: bold;
+.recruitDetailwrap .recruitDetail .crumbsnav{
+	width: 100%;
+	height: 86px;
 }
-.recruitDetail nav dl{
-	padding-left:32px;
-	height:120px;
-	background: #F2F2F2;
-}
-.recruitDetail nav dt{
-	width:450px;
-}
-.recruitDetail nav dt h2{
-	height:40px;
-	padding-top:30px;
-	font-size:22px;
-	color:#333;
-	font-weight:500;
-}
-.recruitDetail nav dt p{
-	font-size:14px;
-	color:#666;
-}
-.recruitDetail nav dt p span:last-child{
-	padding:0 15px;
-}
-.recruitDetail nav dd{
-	height:120px;
-	line-height: 120px;
-	color:#0099FF;
-	font-size:20px;
-}
-.recruitDetail article dl{
-	margin-top:24px;
-
-}
-
+.crumbsnav p{font-size: 14px;color: #666;padding-top: 30px;}
+.crumbsnav p i{font-style: normal;margin: 0 20px;}
+.crumbsnav p a{color: #666;}
+.position{width: 1148px;height: 200px;border-bottom: 1px solid #d2d2d2;position: relative;padding:15px 20px;}
+.position_name{height:80px;padding:0 40px;background: #50a5db;position: absolute;left: 20px;top: -10px;} 
+.position_name span{font-size: 24px;color: #fff;line-height: 80px;}
+.positionP_one{font-size: 18px;color: #3ab3e6;margin:0 0 8px 163px;}
+.positionP_two{font-size: 14px;color: #666;margin-left:163px;}
+.positionP_three{font-size: 18px;color: #666;line-height: 60px;}
+.positionP_three i{font-style: normal;color: #e76d84;font-size: 24px;margin-right: 37px;}
+.positionP_three span{margin-right: 41px;}
+.positionP_four, .positionP_five, .positionP_six{font-size: 13px;color: #666;margin-bottom: 16px;}
+.positionP_four span, .positionP_five span{margin-right:8px;}
+.position img{width: 200px;height: 200px;position: absolute;right: 20px;top: 20px;}
+.describe, .detail{width: 1148px;padding: 20px 20px 35px 20px;border-bottom: 1px solid #d2d2d2;}
+/*.detail{width: 1148px;padding: 20px 20px 35px 20px;border-bottom: 1px solid #d2d2d2;}*/
+.box{width: 198px;height: 198px;border:1px solid #fff;background: #f994f9;position: absolute;right:-252px;top: 107px;}
+.position .Angle{position: absolute;left: 10px;top: -10px;width: 10px;height: 10px;}
 .recruitDetail article dt{
+	border-left: 10px solid #278ed0;
 	padding-left:20px;
-	height:44px;
-	background: #D7D7D7;
-	line-height: 44px;
+	height:30px;
+	line-height: 30px;
+	color: #666;
+	font-size: 18px;
 }
 .recruitDetail article dd{
-	padding-left:20px;
-	background:#F2F2F2;
-	padding-bottom: 30px;
-	
+	padding-left:30px;
 }
 .recruitDetail article dd p{
 	width:700px;
-	padding-top:20px;
-	font-size:14px;
+	color: #666666;
+	font-size:13px;
+	line-height: 32px;
+	margin-top: 10px;
 }
 .recruitDetail article .detail dd p{
-	width:840px;
+	width:1090px;
+	line-height: 28px;
+	color: #666;
 }
-
+.detail dd p span{
+	display: inline-block;
+	width: 983px;
+}
+.detail dd p i{font-style: normal;float: left;}
+.recruitDetail article .detail dd h3{font-weight: normal;color: #666;margin-top: 25px;}
 
 
 

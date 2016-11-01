@@ -1,140 +1,150 @@
-body{
-	font-family: "微软雅黑";
-}
-.left{float:left;}
-.right{float:right;}
-
-.clearfix:after {
-content: "";
-display: block;
-height: 0;
-clear: both;
-}
-.clearfix {
-zoom: 1;
-}
-a{color:#666; font-weight: 100;}
 
 
 
 .recruitwrap{
 	width:100%;
-	/*height:200px;*/
-	background:#fff;
 }
 .recruit{
-	width:1200px;
+	width:1190px;
 	/*height:auto;*/
 	margin: 0 auto;
 }
 /*上部内容*/
-.recruit .recruittop{
-	background: #D7D7D7;
-	margin-top:20px;
-}
-.recruit .recruittop aside{
+.recruittop{
 	width:100%;
-	height:50px;
-	border-bottom:1px solid #ccc;
-	/*box-sizing: border-box;*/
-	line-height: 50px;
+	height:270px;
+	background: #3c99d3;
+	color: #fff;
+	padding-top:15px;
+	font-size:13px;
 }
-.recruit .recruittop .nameleft,.rangeleft,.placeleft,.companyleft{
-	width:120px;
-	text-align: center;
-}
-.recruit .recruittop .namecenter,.rangecenter,.placecenter{
-	width:925px;
-}
-.recruit .recruittop li{
-	padding:0 25px;
-}
-.recruit .recruittop .nameright,.rangeright,.placeright{
-	width:150px;
-	text-align: center;
-} 
-.recruit .recruittop .company{
-	line-height: normal;
-}
-.recruit .recruittop .companyleft{
-	height:50px;
-	line-height: 50px;
-}
-.recruit .recruittop .all a{
-	color:#0099FF;
-}
-.recruit .recruittop .search input{
-	width:396px;
-	height:34px;
-	padding:0 5px;
-	margin-top:8px;
-	
-}
-.recruit .recruittop .searchbutton{
-	padding:0 38px 0 100px;
-}
-.recruit .recruittop .searchbutton input{
-	margin-top:8px;
-	width:336px;
-	height:32px;
-	background: #169BD5;
+.recruittop a{
 	color:#fff;
-	border-radius: 8px;
+}
+.recruittop .right{
+ 	cursor: pointer;
+}
+.recruittop aside{
+	width:1190px;
+	margin:0 auto;
+	height:24px;
+	line-height:24px;
+	padding-top: 15px;
+}
+.recruittop aside:last-child{
+	height:40px;
+	line-height: 40px;
+}
+.recruittop li{
+	margin-right:40px;
+}
+.recruittop .all{
+	width:50px;
+	height:24px;
+	background: #c8a12a;
+	line-height:24px;
+	text-align: center;
+	margin:0 25px 0 50px;
+}
+.recruittop .company{
+	line-height: normal;
+	height:30px;
+	line-height: 30px;
+}
+.recruittop .companyleft{
+	height:30px;
+	line-height: 30px;
 }
 
-.recruit .recruittop .reset{
-	margin-top: 8px;
-	background: #666666;
+.recruittop .search input{
+	margin-left:50px;
+	width:250px;
+	height:28px;
+	text-indent: 1em;
+	background: #cedff3;
 }
-.recruit .recruittop .reset p{
-	height:32px;
-	background: #666666;
+.companybottom{
+	height:40px;
+}
+.recruittop .searchbutton input{
+	text-align: center;
+	line-height: 40px;
+	width:150px;
+	height:40px;
+	background: #87c82a;
+	margin-left:540px;
 	color: #fff;
-	line-height: 34px;
+	font-size:16px;
 }
+
 
 /*中间内容*/
-.recruit .recruitcenter{
-	margin-top:40px;
-	
+.recruit{width: 1190px;margin: 0 auto;}
+.recruitcenter .contenr{
+	margin-top:30px;
 }
-.recruitcenter aside{
-	width:1170px;
-	height:60px;
-	border:1px solid #ddd;
-	border-top:none;
-	padding-left:30px;
+.recruitcenter .more{
+	margin-top:32px;
 }
-.recruitcenter aside:first-child{
-	width:1170px;
-	height:36px;
-	border-bottom:1px solid #ddd;
-	background:#D7D7D7;
-}
-.recruitcenter aside li{
-	height:60px;
-	line-height: 60px;
-}
-.recruitcenter aside:first-child li{
-	height:36px;
-	line-height: 36px;
-}
-.recruitcenter .position{
-	width:288px;
-}
-.recruitcenter .name{
-	width:324px;
-}
-.recruitcenter .pay{
-	width:180px;
-}
-.recruitcenter .place{
-	width:180px;
-}
-.recruitcenter .date{
-	width:180px;
-}
+.recruitcenter li{
+	position: relative;
+	background:#fff;
+	width:1190px;
+	height:138px;
+	border:1px solid #d3d6db;
+	margin-bottom:20px;
+	box-shadow: 0px 5px 10px rgba(66, 66, 66, .2)
 
+}
+.recruitcenter li img{
+	position: absolute;
+	right:10px;
+	top:10px;
+}
+.recruitcenter b{
+	font-size:18px;
+	color: #3ab3e6;
+}
+.recruitcenter span{
+	font-size:14px;
+	color: #666;
+}
+.recruitcenter .top{
+	width:1060px;
+	height:24px;
+	padding:20px 20px 0px;
+}
+.recruitcenter .top .time{
+	margin-left:12px;
+}
+.recruitcenter .center{
+	width:1060px;
+	height:48px;
+	line-height: 48px;
+	padding:0px 20px;
+}
+.recruitcenter .center .years{
+	margin-left:34px;
+}
+.recruitcenter .center i{
+	font-style: normal;
+	color:#e76d84;
+}
+.recruitcenter .bottom{
+	height:46px;
+	line-height: 46px;
+	background:#dfdfe7;
+	padding:0px 20px;
+}
+.recruitcenter .bottom .bottomRight{
+	margin-right:90px;
+}
+.recruitcenter .bottom i{
+	font-style: normal;
+	color:#666666;
+	font-size:14px;
+	padding-right:8px;
+}
 /*内容底部*/
 .recruitbottom{
 	height:76px;
