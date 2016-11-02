@@ -1,0 +1,28 @@
+h3{font-weight: normal;}
+/*头部*/
+.head{width: 1200px;height: 70px;background: #CCCCCC;margin: 0 auto;}
+.head h3{line-height: 70px;text-indent: 50px;font-weight: normal;}
+/*主体*/
+.main{width: 1200px;background: #fff;margin: 0 auto;margin-top: 10px;}
+/*左边视频*/
+.main_left{width: 950px;float: left;}
+.video div{display: none;}
+.video .play_video{display: block;}
+.main_left_tab{width: 100%;height: 35px;background: #ccc;}
+.main_left_tab ul li{width: 180px;height: 35px;background: #999999;float: left;margin-right: 1px;font-size: 16px;
+line-height: 35px;text-align: center;cursor: pointer;}
+.main_left_tab ul .active{color: #fff;background: #0099FF;}
+/*右边目录*/
+.main_right{width: 240px;float: right;background: #D7D7D7;height: 570px;}
+.main_right>p, .main_right>h3{font-size: 16px;width: 100%;height: 35px;background: #999999;margin-bottom: 1px;text-align: center;line-height: 35px;
+color: #fff;}
+.main_right>h3{background: #666666;text-indent: 1em;text-align: left;cursor: pointer;-moz-border-radius: 5px;-webkit-border-radius: 5px; 
+border-radius: 5px;behavior:url(../js/PIE.htc);position: relative;}
+.main_right ul{width: 100%;}
+.main_right ul li p{text-indent: 1em;margin-top: 5px;cursor: pointer;}
+.main_right ul li ul li, .main_right ul li p{width: 240px;height: 30px;background: #999999;margin-bottom: 1px;cursor: pointer;
+line-height: 30px;color: #ccc;-moz-border-radius: 5px;-webkit-border-radius: 5px; 
+border-radius: 5px;behavior:url(../js/PIE.htc);position: relative;}
+.main_right ul li ul li{text-indent: 2em;}
+
+

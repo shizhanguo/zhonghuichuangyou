@@ -1,0 +1,102 @@
+body{background: #EAEAEA;}
+/*导航*/
+.nav .SignOut{width: 45px;height: 15px;background: #999999;position: absolute;right: 0;top: 27px;font-size: 12px;}
+.HeadPortrait{width: 35px;height: 35px;position: absolute;right: 150px;top: 17px;}
+.HeadPortrait img{width: 100%;height: 100%; -moz-border-radius: 50px;-webkit-border-radius: 50px; border-radius: 50px;behavior:url(../js/PIE.htc);}
+.nav p{font-size: 16px;position: absolute;right: 65px;top: 23px;}
+
+/*左边tab面板*/
+.main{width: 1200px;margin: 0 auto;}
+.main_left{width: 200px;height: 585px;background: #fff;margin:5px 10px 40px 0;float: left;}
+.main_hp{width: 100%;height: 100px;background: #999;padding: 10px 0;}
+.main_hp img{width: 60px;height: 60px;display: block;margin: 0 auto;-moz-border-radius: 50px;-webkit-border-radius: 50px; 
+border-radius: 50px;behavior:url(../js/PIE.htc);position: relative;}
+.main_hp p{font-size: 14px;color: #000;text-align: center;line-height: 45px;}
+.main_left ul{margin-top: 10px;}
+.main_left ul li{width: 100%;font-size: 14px;color: #000;line-height: 35px;text-align: center;cursor: pointer;}
+.main_left ul .active{color: #00B2FF;}
+/*右面基本信息*/
+.main_right{width: 990px;height:585px;background: #fff;float: right;margin-top: 5px;display: none;}
+.right{display: block;}
+.main_right_one{padding: 20px 0 0 25px;width: 965px;height: 565px;}
+.right_p_one span{margin-right: 50px;color: #00B2FF;}
+.right_p_one{font-size: 18px;margin-bottom: 30px;}
+.right_p_two{width: 100%;height: 42px;font-size: 16px;position: relative;margin-bottom: 15px;}
+.right_p_two span{line-height: 42px;color: #666;position: absolute;right: 882px;}
+.right_p_two input{width: 300px;height: 38px;text-indent: 1em;color: #666;margin-left: 120px;border: 1px solid #CCCCCC;line-height: 38px;}
+
+/*修改密码*/
+.form_one>input, .form_tow>input{width: 90px;height: 30px;background: #000;margin:30px 0 0 120px ;color: #fff;-moz-border-radius: 5px;-webkit-border-radius: 5px; 
+border-radius: 5px;behavior:url(../js/PIE.htc);position: relative;}
+.pad{margin-bottom: 30px;}
+.pad i{font-style: normal;color: #ccc;margin-left: 10px;}
+/*我的课程*/
+.main_right_two{width: 980px;padding-left: 10px;position: relative;}
+.CourseSearch{width: 100%;height: 59px;position: relative;border-bottom: 1px solid #ccc ;}
+.whole{font-size: 16px;float: left;line-height: 60px;font-weight:normal;width: 500px;height: 100%;}
+.whole p{margin-left: 20px;}
+.CourseSearch .CourseSearch_btn_one{position: absolute;right: 69px;top: 17px;width: 204px;height: 22px;color: #ccc;line-height: 22px;}
+.CourseSearch .CourseSearch_btn_two{position: absolute;right: 30px;top: 17px;width: 40px;height: 26px;}
+
+/*课程列表*/
+.contenr_list{width: 100%;margin: 20px 0;}
+.contenr_list_a{width: 232px;height: 206px;float: left;background: #ccc;margin:0 13px 20px 0;}
+.contert_list_last{margin:0;}
+.contenr_list_a img{width: 100%;height: 120px;cursor:pointer;}
+.contenr_list_a p{font-size: 14px;color: #000;padding-bottom: 10px;padding-left:3px;}
+.contenr_list_a span, .contenr_list_a i{font-size: 14px;color: #000;padding-left:3px;}
+.contenr_list_a i{font-style: normal;margin-left: 150px;}
+
+/*分页器*/
+.paging{height: 40px;clear: both;width: 510px;margin: 30px auto;}
+.paging_a{padding-top: 30px;}
+.paging button{float: left;background: #ccc;cursor:pointer;}
+.paging .paging_btn_one, .paging .paging_btn_four{width: 70px;height: 40px;background: #ccc;}
+.paging .paging_btn_one, .paging .paging_btn_two{margin-right: 10px;}
+.paging .paging_btn_three, .paging .paging_btn_four{margin-left: 10px;}
+.paging .paging_btn_three, .paging .paging_btn_two{width: 90px;height: 100%;}
+.paging ul{height: 100%;float: left;}
+.paging ul li{width: 40px;height: 40px;background: #ccc;float: left;margin:0 5px;text-align: center;line-height: 40px;cursor:pointer;}
+/*我的测评*/
+.main_right_a{height: auto;margin-bottom: 30px;}
+.CourseName{width: 950px;height: 45px;background: #F2F2F2;border-bottom: 1px solid #ccc;margin-top: 10px;}
+.CourseName p{font-size: 16px;line-height: 45px;}
+.name_List{width: 950px;border-bottom: 1px solid #ccc;height: 70px;}
+.name_List span{font-size: 12px;display: block;float: left;line-height: 70px;}
+.sp_one{margin: 0 120px 0 20px;}
+.sp_two{margin-right: 40px;}
+.sp_five{margin-right: 80px;}
+.name_List .List_sp_one{width: 156px;margin: 20px  33px 0 20px;line-height: normal;}
+.List_sp_two{margin-right: 74px;}
+.List_sp_three{margin-right:80px ;}
+.List_sp_four{margin-right:92px ;}
+.List_sp_five{margin-right:46px ;}
+.List_sp_six a{color: #0066FF;}
+.List_sp_six{margin-right:46px ;}
+.List_sp_seven a{color: #FF0000;}
+
+.main_right_two .paging_two{padding-top: 230px;}
+/*我的简历*/
+.main_right_three{width: 980px;padding-left: 10px;position: relative;height: auto;margin-bottom: 30px;}
+.School_one, .School_two{width: 100%;height: 300px;}
+.base{width: 950px;height: 45px;line-height: 45px;text-indent: 2em;background: #ccc;font-size: 14px;margin: 10px 0;position: relative;}
+.right_p_three{width: 100%;height: 35px;font-size: 16px;position: relative;margin-bottom: 15px;}
+.right_p_three span{line-height: 35px;color: #666;position: absolute;right: 882px;}
+.right_p_three input{width: 276px;height: 28px;text-indent: 1em;color: #666;margin-left: 120px;border: 1px solid #CCCCCC;line-height: 26px;}
+.Photo{position: absolute;right: 30px;width: 150px;height: 182px;top: 126px;}
+.base .base_btn_two, .base .base_btn_one{width: 47px;height: 26px;position: absolute;right: 15px;top: 10px;background: #666666;color: #fff;text-indent:0;line-height: 26px;}
+.School{margin-bottom: 10px;}
+.School input{border: 1px solid #CCCCCC;width: 280px;height: 35px;text-indent: 1em;margin-right: 10px;line-height: 35px;color: #888;}
+.School select{width: 76px;height: 35px;margin-right: 10px;line-height: 35px;border: 1px solid #CCCCCC;outline: none;}
+.School .last{width: 188px;margin-right: 10px;}
+.School .School_btn, .we .we_btn{width: 45px;height: 26px;background: red;color: #fff;border: none;text-indent: 0;line-height: 26px;}
+.we{width: 100%;height: 35px;}
+.we input{border: 1px solid #CCCCCC;line-height: 35px;height: 31px;text-indent: 1em;color: #888;margin-right:10px}
+.we_one{width: 110px;}
+.we_two{width: 280px;}
+.we_three{width: 232px;}
+.we .we_four{width:73px;text-indent: 8px;}
+.CourseSearch_sub_two{width: 75px;height: 30px;background: #000;color: #fff;position: absolute;right: 50px;top: 15px;}
+.right_sex input{height: 13px;width: 13px;line-height: 42px;margin-top: 15px;border: none;}
+.right_sex .sex_a{margin-left: 136px;}
+.right_sex .sex_b{margin-left:30px;}

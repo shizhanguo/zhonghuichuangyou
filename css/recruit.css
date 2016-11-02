@@ -91,9 +91,9 @@
 	background:#fff;
 	width:1190px;
 	height:138px;
-	border:1px solid #d3d6db;
+	border:1px solid #d3d7da;
 	margin-bottom:20px;
-	box-shadow: 0px 5px 10px rgba(66, 66, 66, .2)
+	/*box-shadow: 0px 5px 10px rgba(66, 66, 66, .2)*/
 
 }
 .recruitcenter li img{
@@ -103,7 +103,7 @@
 }
 .recruitcenter b{
 	font-size:18px;
-	color: #3ab3e6;
+	color: #36b3e1;
 }
 .recruitcenter span{
 	font-size:14px;
@@ -127,6 +127,7 @@
 .recruitcenter .center i{
 	font-style: normal;
 	color:#e76d84;
+	font-size:16px;
 }
 .recruitcenter .bottom{
 	height:46px;
@@ -138,7 +139,7 @@
 .recruitcenter .bottom i{
 	font-style: normal;
 	color:#666666;
-	font-size:14px;
+	font-size:13px;
 	padding-right:8px;
 }
 /*内容底部*/

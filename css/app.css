@@ -1,0 +1,8 @@
+.main_contenr{width: 1200PX;height: 500px;margin: 0 auto;position: relative;}
+.main_contenr img{width: 360px;height: 400px;position: absolute;right: 0;top: 50px;}
+.main_contenr button{width: 140px;height: 40px;background: #169BD5;outline: none;border: none;border-radius: 5px;display: block;color: #fff;}
+.Android{position: absolute;left: 665px;top: 320px;}
+.ios{position: absolute;left: 665px;top: 390px;}
+
+
+

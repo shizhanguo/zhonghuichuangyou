@@ -1,0 +1,97 @@
+body{background: #ccc;}
+.Mask{width: 100%;background: #ccc;opacity: 0.50;filter: "alpha(opacity=50)";filter: alpha(opacity=50); position: fixed;top: 0;left: 0;z-index: 999;
+display: none;zoom: 1;}
+/*侧边栏*/
+.sidebar{width: 40px;height: 150px;position: fixed;right: 0;bottom:100px;display: none;}
+.sidebar p{width: 100%;height:40px;background: #666;text-align: center;margin-bottom: 10px;font-size: 12px;cursor: pointer;color: #fff;}
+.sidebar p span{display: block;line-height: 20px;}
+/*二维码*/
+.QRcode{width: 150px;height: 150px;background: red;position: fixed;right: 350px;bottom: 100px;display: none;}
+
+/*.sidebar .sidebar_one{width: 40px;padding-top: 5px;height: 35px;}*/
+.sidebar_three{line-height: 40px;}
+/*主体内容*/
+.main{width: 100%;clear: both;background: #ccc;}
+.main_contenr{width: 1200px;margin: 0 auto;}
+/*课程搜索*/
+.CourseSearch{width: 100%;height: 70px;position: relative;}
+.whole{font-size: 16px;float: left;line-height: 70px;font-weight:normal;width: 500px;height: 100%;}
+.whole p, .whole a {float: left;}
+
+/*课程详情与大纲*/
+.details{width: 100%;height: 60px;background: #F8F8F8;margin-top: 10px;}
+.details button{width: 166px;height: 100%;float: left;background: #999999;cursor: pointer;}
+.details .active{background: #333333;color: #fff;}
+.paging ul{height: 100%;float: left;}
+.paging ul li{width: 40px;height: 40px;background: #ccc;float: left;margin:0 5px;text-align: center;line-height: 40px;cursor:pointer;}
+.details_img{width: 840px;height: 298px;display: block;}
+
+/*课程介绍*/
+.introduce{width: 1170px;height: 256px;background: #fff;padding: 15px;position: relative;}
+.introduce>p{width: 95px;height: 36px;position: absolute;right:15px;top: 10px;background: #ccc;text-align: center;line-height: 36px;
+font-size: 14px;display: none;}
+.introduce img{width: 500px;height: 250px;float: left;}
+.introduce_a{float: left;margin-left: 30px;}
+.introduce_a h3{font-size: 26px;color: #666;padding-bottom: 10px;}
+.introduce_a>span{color: #555;float: left;}
+.introduce_a>p{font-size: 16px;width: 560px;float: left;color: #666;}
+.introduce_a .introduce_one{clear: both;padding-top: 60px;position: relative;}
+.introduce_a .introduce_one span{color: #666;}
+.introduce_a .introduce_one .sp_five{margin-right:60px;}
+.introduce_a .introduce_one h3{position: absolute;right: 0;top: 45px;}
+.introduce_a .introduce_two{height: 50px;width: 100%;padding-top: 20px;}
+.introduce_a .introduce_two p{float: left;line-height: 50px;color: #666;}
+.introduce_a .introduce_two button{height: 50px;width:160px;float: right;color: #fff;margin-left: 130px;}
+
+/*课程介绍——图文详情*/
+.details_doti{width: 1160px;background: #fff;clear: both;padding: 20px 20px 0 20px;margin-bottom:30px ;}
+.details_doti_a, .details_doti_b{width: 100%;height: 455px;}
+.details_doti_a img, .details_doti_b img{width: 515px;height: 455px;float: left;}
+.details_doti_a h3, .details_doti_a p{float: left;width: 520px;padding-left: 40px;}
+.details_doti_a h3{font-size: 22px;line-height: 50px;padding-top: 80px;}
+.details_doti_a p{text-indent: 2em;font-size: 16px;}
+.details_doti_b{padding: 20px 0 5px 0;}
+.details_doti_b div{width: 300px;float: left;padding-right: 40px;}
+.details_doti_b h3, .details_doti_b p{width: 300px;}
+.details_doti_b h3{font-size: 22px;line-height: 50px;padding-top: 80px;}
+.details_doti_b p{text-indent: 2em;font-size: 16px;}
+
+/*课程报名面板*/
+.SignUp_one, .SignUp_three, .SignUp_four{width: 930px;height:350px;background: #fff;position: fixed;top: 130px;left: 50%;margin-left:-465px;background: #F2F2F2;z-index: 9999;
+display: none;}
+.SignUp_one_a, .SignUp_two_a, .SignUp_four_a, .SignUp_three_a{width: 100%;height: 45px;background: #666;}
+.SignUp_one_a h3, .SignUp_two_a h3, .SignUp_three_a h3, .SignUp_four_a h3{font-size: 16px;line-height: 45px;color: #fff;float: left;padding-left: 10px;font-weight: normal;} 
+.SignUp_one_a img, .SignUp_two_a img, .SignUp_three_a img, .SignUp_four_a img{float: right;width: 20px;height: 20px;margin: 12px 10px 0 0;cursor: pointer;}
+.SignUp_one_b, .SignUp_three_b , .SignUp_four_b{width: 895px;height: 170px;margin: 20px 15px 30px 15px;background: #fff;}
+.SignUp_one_b img, .SignUp_four_b img{width: 380px;height: 170px;float: left;}
+.SignUp_one_b h3, .SignUp_four_b h3{float: left;font-size: 26px;width: 315px;padding: 10px 0 55px 20px;}
+.SignUp_one_b p, .SignUp_four_b p{font-size: 16px;color: #666;float: left;padding-left: 20px;}
+.SignUp_one_b p span, .SignUp_four_b p span{color: #444;}
+.SignUp_one>p, .SignUp_four>p{font-size: 16px;line-height: 80px;float: left;padding-left: 15px;}
+.SignUp_one>p>span, .SignUp_four>p>span{font-size: 26px;}
+.SignUp_one>button, .SignUp_four>button{width: 140px;height: 50px;background: #D7D7D7;float: right;margin:12px 20px 0 0;cursor: pointer;}
+
+/*报名成功面板*/
+.SignUp_two{width: 534px;height: 375px;background: #F2F2F2;position: fixed;top: 130px;left: 50%;margin-left:-267px;display: none;z-index: 9999;}
+.SignUp_two h1{font-size: 28px;line-height: 100px;text-align: center;font-weight: normal;}
+.SignUp_two p{font-size: 16px;text-align: center;}
+.SignUp_two button{width: 140px;height: 50px;background: #D7D7D7;margin-top: 100px;}
+.SignUp_two_Continue{margin-left: 30px;}
+.SignUp_two_start{margin-left: 190px;}
+
+/*支付面板*/
+.SignUp_three_b>span{font-size: 18px;margin: 15px 20px 0 20px;float: left;line-height: 56px;}
+.SignUp_three_b ul{float: left;margin-top: 15px;}
+.SignUp_three_b ul li{width: 160px;height: 56px;background: #999999;text-align: center;margin-right: 25px;font-size: 20px;float: left;line-height: 56px;
+color: #fff;}
+.SignUp_three_b p{font-size: 16px;line-height: 60px;text-align: center;}
+.SignUp_three_b p span{font-size: 26px;}
+.SignUp_three_btn{width: 140px;height: 50px;float: right;margin-right: 20px;font-size: 18px;}
+.SignUp_three .SignUp_three_b ul .active_a{background: #666666;}
+
+/*课程大纲*/
+.Curriculum_outline{width: 1100px;height: 800px;padding: 30px 0 0 100px;background: #fff;display: none;z-index: 9999;}
+.Curriculum_outline ul{width: 100%;}
+/*.Curriculum_outline ul li{line-height: 30px;color: #444font-size: 16px;;}*/
+.Curriculum_outline ul li a{font-size: 16px;	line-height: 30px;color: #444;}
+.Curriculum_outline ul .chapter_a{line-height: 40px;margin-left: -10px;}

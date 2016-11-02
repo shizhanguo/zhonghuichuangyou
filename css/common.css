@@ -3,10 +3,10 @@ a{text-decoration: none;color: #000;}
 button,input{border: none;outline: none;};
 h1, h2, h3, h4, h5, h6{font-weight: normal;}
 /*头部*/
-.header{width: 100%;height: 100px;position: fixed;top: 0;left: 0;background: #fff;z-index: 99;}
+.header{width: 100%;height: 100px;position: fixed;top: 0;left: 0;background: #fff;z-index: 99;box-shadow: 0px 5px 8px rgba(66, 66, 66, .1);}
 .head{width: 100%;height: 100px;background: #fff;}
 /*导航*/
-.nav{width: 1340px;height: 100%;margin: 0 auto;position: relative;background: #fff;position: relative;}
+.nav{width: 1340px;height: 100%;margin: 0 auto;position: relative;background: #fff;}
 .nav ul{width: 600px;float: left;margin:42px  0 0 70px;}
 .logo{width: 180px;float: left;margin-top: 23px;}
 .icon_seacrh{width: ;position: absolute;right: 196px;top: 44px;z-index: 2;}
@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6{font-weight: normal;}
 .nav ol li{float: left;border-right: 1px solid #b2b2b2;padding:0 10px;}
 .nav ol li a{font-size:14px;color: #666;}
 .nav ol .nav_active{border: none;}
-.nav input{width: 80px;height: 30px;-moz-border-radius: 7px;-webkit-border-radius: 7px; border-radius: 7px;behavior:url(../js/PIE.htc);
+.nav input{width: 78px;height: 28px;-moz-border-radius: 7px;-webkit-border-radius: 7px; border-radius: 7px;behavior:url(../js/PIE.htc);
 text-indent: 10px;border: 1px solid #dadada;font-size: 12px;color: #666;
 position: absolute;right: 190px;top: 37px;}
 
@@ -39,14 +39,15 @@ color: #999999;}
 .footer_contenr{width: 1190px;margin: 0 auto;height: 100%;position: relative;}
 .footer_left h3{font-size: 23px;font-weight:normal;color: #989898;line-height: 75px;}
 .footer_left p{color: #989898;font-size: 14px;line-height: 26px;}
-.footer_right{float: right;width:800px;height:100%;}
+.footer_right{float: right;width: 800px;height: 100%;}
 .footer_right ul{padding: 140px 0 70px 0;float: right;}
 .footer_right ul li{float: left;font-size: 14px;margin-left: 65px;}
 .footer_right ul li a{color: #989898;}
 .footer_right ul li a:hover{text-decoration:underline;}
-.footer_right p{text-align: right;color: #ccc;font-size: 14px;line-height: 20px;color: #989898;float:right;}
+.footer_right p{text-align: right;color: #ccc;font-size: 14px;line-height: 20px;color: #989898;float: right;}
 .footer_right .footer_right_p{clear: both;}
 .footer_logo{margin-top: 60px;}
+
 
 
 .clearfix:after {

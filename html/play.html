@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>课程播放</title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/play.css"/>
+		<!--[if lte IE 8]><script src="http://api.html5media.info/1.1.4/html5media.min.js"></script><![endif]-->
+	</head>
+	<body>
+		<!--头部-->
+		<div class="head">
+			<h3>产品经理入门精讲课程，从零开始</h3>
+		</div>
+		
+		<!--主体内容-->
+		<div class="main">
+			<!--视频和tab面板-->
+			<div class="main_left">
+				<div class="main_left_tab">
+					<ul>
+						<li class="active">课程视频</li>
+						<li>课堂讲义</li>
+						<li>课程测评</li>
+					</ul>
+				</div>
+				<!--视频播放-->
+				<div class="video">
+					<div class="play_video">
+					<video controls poster="../img/myvideo.jpg" style="width:950px;height: 560px;" proload="true">
+								<source src="../img/myvideo.mp4" type="video/mp4"></source>
+								<source src="../img/imgmyvideo.ogv" type="video/ogg"></source>
+								<source src="../img/myvideo.webm" type="video/webm"></source>
+								<object width="510" height="118" type="application/x-shockwave-flash" data="myvideo.swf">
+									<param name="movie" value="myvideo.swf" />
+									<param name="flashvars" value="autostart=true&amp;file=myvideo.swf" />
+								</object>
+								当前浏览器不支持 video直接播放，点击这里下载视频： <a href="../myvideo.webm">下载视频</a>
+					</video>
+					</div>
+					<div class="Handout">课堂讲义</div>
+					<div>课程测评</div>
+				</div>
+			</div>
+			<!--视频目录-->
+			<div class="main_right">
+				<p>课程目录</p>
+				<ul class="play_ul">
+					<li>
+						<p>第一章</p>
+						<ul>
+							<li>第一节</li>
+							<li>第二节</li>
+							<li>第三节</li>
+							<li>第四节</li>
+						</ul>				
+					</li>
+					<li>
+						<p>第二章</p>
+						<ul>
+							<li>第一节</li>
+							<li>第二节</li>
+							<li>第三节</li>
+							<li>第四节</li>
+						</ul>				
+					</li>
+				</ul>
+				<h3>课程测评</h3>
+			</div>
+		</div>
+		<script src="../js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/play.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

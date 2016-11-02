@@ -5,12 +5,13 @@
 .Title{width: 1180px;height: 78px;margin: 0 auto;}
 .Title h3{font-size: 26px;font-weight: normal;color: #343434;padding-top:43px;float: left;}
 .CourseClass{width:1060px;height: 77px;border-bottom: 1px solid #c4c4c4;float: right;}
-.CourseClass p{float: right;color: #333;font-size: 14px;margin:52px 12px 0 0;}
+.CourseClass p, .CourseClass_p{float: right;color: #333;font-size: 14px;margin:52px 12px 0 0;}
 .CourseClass ul{margin: 42px 0 0 16px;}
-.CourseClass ul li{width: 60px;height: 34px;float: left;text-align: center;line-height: 34px;margin-right: 20px;}
-.CourseClass ul li a{color: #333;float: 14px;}
+.CourseClass ul li{width: 70px;height: 34px;float: left;text-align: center;line-height: 34px;margin-right: 20px;}
+.CourseClass ul li a{color: #333;font-size: 14px;}
 .CourseClass ul .CourseClass_active{border-bottom: 2px solid #72aed2;}
 .CourseClass ul .CourseClass_active a{color: #72aed2;}
+.CourseClass_p{cursor: pointer;}
 /*课程搜索*/
 .search{width: 100%;height: 180px;background: #3c99d4;}
 .search_contenr{width: 1180px;margin: 0 auto;height: 100%;position: relative;}
@@ -19,7 +20,7 @@
 
 /*课程列表*/
 .contenr_list{width: 100%;margin-bottom:22px;height: 270px;}
-.contenr_list_a{width: 280px;height: 270px;float: left;background: #fff;margin-right:20px;box-shadow: 0px 5px 10px rgba(66, 66, 66, .2);}
+.contenr_list_a{width: 280px;height: 270px;float: left;background: #fff;margin-right:20px;box-shadow: 0px 4px 10px rgba(66, 66, 66, .2);}
 .contenr_list_active{margin:30px 0 22px 0;}
 .contert_list_last{margin:0;}
 .contenr_list_b{width: 278px;height: 89px;border-bottom: 1px solid #e6e6e6;
@@ -29,6 +30,4 @@ border-left: 1px solid #e6e6e6;border-right: 1px solid #e6e6e6;background: #fff;
 .contenr_list_a span{font-size: 14px;color: #323232;padding-left:14px;}
 .contenr_list_b input{width: 40px;height: 18px;-moz-border-radius: 3px;-webkit-border-radius: 3px; border-radius: 3px;behavior:url(../js/PIE.htc);
 border: 1px solid #66b8ea;background: #fff;font-size: 12px;color: #66b8ea;margin-left: 168px;}
-
-
 
